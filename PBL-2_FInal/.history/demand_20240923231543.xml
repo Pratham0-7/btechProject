@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demand>
+    <routes>
+        <!-- Define vehicle types -->
+        <vType id="car" vClass="passenger" speedFactor="1.0" length="5.0" />
+        <vType id="delivery" vClass="delivery" speedFactor="1.0" length="5.0" />
+        <vType id="bicycle" vClass="bicycle" speedFactor="0.5" length="1.8" />
+
+        <!-- Example pedestrian demand (commented out since they are discarded) -->
+        <!-- <person id="p1" depart="0" arrival="100" edge=":10070009920_3" />
+        <person id="p2" depart="10" arrival="110" edge=":10070009920_4" />
+        <person id="p3" depart="20" arrival="120" edge=":10070009920_5" /> -->
+
+        <!-- Example delivery demand with valid routes -->
+        <vehicle id="v1" type="delivery" depart="0" route=":10070009920_6 :10070009921_0" />
+        <vehicle id="v2" type="delivery" depart="15" route=":10070009920_7 :10070009921_1" />
+        <vehicle id="v3" type="delivery" depart="30" route=":10070009920_8 :10070009921_2" />
+
+        <!-- Example bicycle demand with valid routes -->
+        <vehicle id="b1" type="bicycle" depart="0" route=":10070009923_0 :10070009924_1" />
+        <vehicle id="b2" type="bicycle" depart="5" route=":10070009923_1 :10070009924_2" />
+        <vehicle id="b3" type="bicycle" depart="10" route=":10070009923_2 :10070009924_3" />
+    </routes>
+</demand>

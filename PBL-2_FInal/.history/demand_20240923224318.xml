@@ -1,0 +1,17 @@
+<routes>
+    <vType id="car" vClass="passenger" color="1,0,0" accel="2.6" decel="4.5" length="5.0" width="2.0" />
+    
+    <trip id="trip1"> <!-- Add an id attribute -->
+        <from>10069992510</from>  <!-- First junction ID -->
+        <to>9708875094_11_0</to>  <!-- Last junction ID -->
+        <depart>0</depart>
+        <duration>100</duration>
+    </trip>
+
+    <trip id="trip2"> <!-- Add another trip with an id attribute -->
+        <from>10069992510</from>  <!-- Repeat or use different junctions -->
+        <to>9708875094_11_0</to>
+        <depart>10</depart>
+        <duration>100</duration>
+    </trip>
+</routes>

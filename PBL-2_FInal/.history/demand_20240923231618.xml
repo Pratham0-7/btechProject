@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demand>
+    <routes>
+        <!-- Define vehicle types -->
+        <vType id="car" vClass="passenger" speedFactor="1.0" length="5.0" />
+        <vType id="delivery" vClass="delivery" speedFactor="1.0" length="5.0" />
+        <vType id="bicycle" vClass="bicycle" speedFactor="0.5" length="1.8" />
+
+        <!-- Define vehicles with correct routes -->
+        <vehicle id="v1" type="delivery" depart="0" route=":10070009924_0 :10070009924_1" />
+        <vehicle id="v2" type="delivery" depart="15" route=":10070009924_2 :10070009924_3" />
+        <vehicle id="v3" type="delivery" depart="30" route=":10070009924_4 :10070009924_5" />
+
+        <vehicle id="b1" type="bicycle" depart="0" route=":10070009926_0 :10070009926_1" />
+        <vehicle id="b2" type="bicycle" depart="5" route=":10070009926_2 :10070009926_3" />
+        <vehicle id="b3" type="bicycle" depart="10" route=":10070009926_4 :10070009926_5" />
+    </routes>
+</demand>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" vClass="passenger" length="5.0" accel="2.6" decel="4.5" maxSpeed="33.33" />
+    
+    <vehicle id="car1" type="car" route="route1" depart="0" departLane="best" />
+    
+    <route id="route1">
+        <lane id=":10070009920_3_0" />
+        <lane id=":10070009920_4_0" />
+        <lane id=":10070009920_5_0" />
+        <lane id=":10070009920_6_0" />
+        <lane id=":10070009920_7_0" />
+        <lane id=":10070009920_8_0" />
+    </route>
+</routes>

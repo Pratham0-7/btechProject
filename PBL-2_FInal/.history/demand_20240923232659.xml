@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car"/>
+    <route id="route1">
+        <lane id=":10070009920_3_0" />
+    </route>
+</routes>

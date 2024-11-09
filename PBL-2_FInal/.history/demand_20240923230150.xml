@@ -1,0 +1,5 @@
+<trip id="trip1" depart="0">
+    <from>3991363661</from>  <!-- Start junction -->
+    <to>9708875058</to>      <!-- End junction -->
+    <edge>-1056592910</edge> <!-- Adjust this if you change edge ID -->
+</trip>

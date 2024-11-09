@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car" vClass="passenger" speedFactor="1.0" length="5.0" />
+    <vType id="charging_station" vClass="passenger" speedFactor="0.0" length="5.0" />
+
+    <!-- Define routes -->
+    <route id="route1" edges="991865589" />
+    <route id="route2" edges="-991865589" />
+    
+    <!-- Vehicles using the defined routes -->
+    <vehicle id="vehicle_1" type="car" route="route1" depart="0" />
+    <vehicle id="vehicle_2" type="car" route="route1" depart="10" />
+    <vehicle id="vehicle_3" type="car" route="route2" depart="20" />
+    <vehicle id="vehicle_4" type="car" route="route2" depart="30" />
+    
+    <!-- Simulating charging stations as stationary vehicles -->
+    <!-- Charging stations on route1 (edge 991865589) -->
+    <vehicle id="charging_station_1" type="charging_station" route="route1" depart="0" arrival="1" />
+    <vehicle id="charging_station_2" type="charging_station" route="route1" depart="0" arrival="2" />
+    <vehicle id="charging_station_3" type="charging_station" route="route1" depart="0" arrival="3" />
+
+    <!-- Charging stations on route2 (edge -991865589) -->
+    <vehicle id="charging_station_4" type="charging_station" route="route2" depart="0" arrival="4" />
+    <vehicle id="charging_station_5" type="charging_station" route="route2" depart="0" arrival="5" />
+    <vehicle id="charging_station_6" type="charging_station" route="route2" depart="0" arrival="6" />
+</routes>

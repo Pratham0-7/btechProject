@@ -1,0 +1,8 @@
+<routes>
+    <vType id="car" vClass="passenger" color="1,0,0" accel="2.6" decel="4.5" length="5.0" width="2.0" />
+    
+    <trip id="trip1" depart="0" duration="100">
+        <from>-1056592910</from>
+        <to>1056592911#0</to>
+    </trip>
+</routes>

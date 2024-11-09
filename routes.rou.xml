@@ -1,0 +1,11 @@
+<routes>
+    <vType id="av_type" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="20" color="1,0,0" />
+
+    <!-- Define a main route through the connected edges -->
+    <route id="main_route" edges="e0 e1 e4" />
+
+    <!-- Define AVs that follow the corrected main route -->
+    <vehicle id="av_0" type="av_type" route="main_route" depart="0" pos="0" />
+    <vehicle id="av_1" type="av_type" route="main_route" depart="1" pos="0" />
+    <vehicle id="av_2" type="av_type" route="main_route" depart="2" pos="0" />
+</routes>

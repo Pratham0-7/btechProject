@@ -1,0 +1,36 @@
+<routes>
+    <!-- Define vehicle types -->
+    <vType id="car" vClass="passenger" color="1,0,0" accel="2.6" decel="4.5" length="5.0" width="2.0" />
+    <vType id="bus" vClass="bus" color="0,1,0" accel="1.2" decel="3.0" length="12.0" width="2.5" />
+
+    <!-- Define trips for vehicles -->
+    <!-- Vehicle 1: Car, using edges from 3991363661 to 9708875058 -->
+    <trip id="trip1" depart="0" type="car">
+        <route edges="-1056592910"/>
+    </trip>
+
+    <!-- Vehicle 2: Bus, using edges from 9708875066 to 9708875058 -->
+    <trip id="trip2" depart="10" type="bus">
+        <route edges="-1056592911#0"/>
+    </trip>
+
+    <!-- Vehicle 3: Car, using edges from 9708875068 to 9708875066 -->
+    <trip id="trip3" depart="20" type="car">
+        <route edges="-1056592911#1"/>
+    </trip>
+
+    <!-- Vehicle 4: Bus, using edges from 9708875069 to 9708875068 -->
+    <trip id="trip4" depart="30" type="bus">
+        <route edges="-1056592911#2"/>
+    </trip>
+
+    <!-- Vehicle 5: Car, using edges from 10286104439 to 9708875058 -->
+    <trip id="trip5" depart="40" type="car">
+        <route edges="-1056592912#0"/>
+    </trip>
+
+    <!-- Vehicle 6: Car, using edges from 9708875071 to 10286104439 -->
+    <trip id="trip6" depart="50" type="car">
+        <route edges="-1056592912#1"/>
+    </trip>
+</routes>
